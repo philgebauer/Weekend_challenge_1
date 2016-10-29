@@ -1,0 +1,40 @@
+/*#inputButton {
+  padding-left: 40px;
+  float: right;
+}*/
+#container {
+  border: 1px solid blue;
+}
+
+#money {
+  border: 1px solid blue;
+}
+
+
+h1 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.wrapper {
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 10px 150px 10px 150px;
+    border-radius: 15px;
+    background-color: #F8F8F8;
+    text-align: center;
+}
+
+input {
+    height: 30px;
+    width: 200px;
+    /*margin-top: 30px;
+    margin-bottom: 30px;*/
+    /*display: inline-flex;*/
+}
