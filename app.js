@@ -22,18 +22,6 @@ $(document).ready(function() {
 
         appendDom(employee);
 
-
-        // function appendDom(employee){
-        //   $("#container").append('<div class="person"></div>');
-        //   var $el = $("#container").children().last();
-        //
-        //
-        //
-        //   $el.append('<p class="empInfo">' + employee.employeefirstname + ' ' + employee.employeelastname +
-        //   + employee.employeeid + employee.employeejobtitle + employee.employeesalary +
-        //   '<button class="delete">Delete</button></p>');
-
-
           function appendDom(employee) {
             $('#employeeTable').append('<tr class="person"></tr>');
             var $el = $('#employeetable').children().last();
@@ -41,10 +29,6 @@ $(document).ready(function() {
             $el.append(
                       '<tr class="listData"><td>' + employee.employeefirstname + ' ' +  employee.employeelastname +'</td><td>' + employee.employeeid + '</td><td>' + employee.employeejobtitle + '</td><td>'+ employee.employeesalary + '</td><td>' + '<button class="delete">Delete</button></td></tr>');
 
-          // $("#firstName").append('<td class= ".firstNames">' + '</td>');
-          // var $el = $('#firstName').children().last();
-          //
-          // $el.append('<td class= ".firstNameNew">' + employee.employeefirstname + '</td>');
 
           employee.employeesalary = parseInt(employee.employeesalary);
 
@@ -53,14 +37,6 @@ $(document).ready(function() {
 
           $('.monthlyAmount').empty();
           $('#money').append('<p class ="monthlyAmount"> Monthly Salary Expenditures: ' + monthlyTotal + '$ </p>');
-
-
-          // $('.testClass').empty();
-          // $('#test').append('<p class =".testClass"> Test class for ID: ' + employee.employeeid + '!!</p>');
-          //
-          //
-          // $('#firstName').append('<td class =".firstNameNew"> ' + employee.employeefirstname '</td>');
-
 
 
         }
