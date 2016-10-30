@@ -1,4 +1,4 @@
-### Prime Weekend Challenge_1
+# Prime Weekend Challenge_1
 
 ## Instructions for this weekend challenge were ->
 
@@ -31,8 +31,8 @@ Once the employee is deleted, also update the total salaries to discount the rem
 ##What I added
 
 1. Bootstrap functionality
-⋅⋅⋅Allowed for clean rows and a simple design
-2. Appended data directly to table 
-⋅⋅⋅Easy to read and comprehend
+⋅⋅+Allowed for clean rows and a simple design
+2. Appended data directly to table
+⋅⋅+Easy to read and comprehend
 3. Delete button to clear selected row
-⋅⋅⋅Clear specific rows with a click of a button
+⋅⋅+Clear specific rows with a click of a button
