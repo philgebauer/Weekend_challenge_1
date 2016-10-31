@@ -39,10 +39,10 @@
 
 table {
   margin: 0 auto;
-  width: 50%;
+  width: 75%;
   float: none;
-  vertical-align: text-top;
-  margin-bottom: 75px;
+  vertical-align: middle;
+  margin-bottom: 50px;
 
 }
 
@@ -50,13 +50,15 @@ th {
   height: 50px;
   width:  200px;
   font-weight: bold;
-  vertical-align: text middle;
+  vertical-align: middle;
+  text-align: center;
   background-color: #EDFDFF;
 }
 
 td {
   width: 200px;
   text-align: center;
+
 }
 
 

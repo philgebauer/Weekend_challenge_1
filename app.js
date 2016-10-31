@@ -22,6 +22,7 @@ $(document).ready(function() {
 
 
         $('#employeeinfo').find('input[type=text]').val('');
+        
 
         appendDom(employee);
 
